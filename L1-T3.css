@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+body{
+    height: 80vh;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.5fZrG0r9YcEgeP964sP7ngAAAA&pid=Api&P=0&h=180);
+}
+.navbar{
+    padding: 0px;
+}
+.head{
+    background-color: black;
+    background-size: cover;
+    font-size: 25px;
+    text-align: left;
+    padding: 15px;
+    font-family: "Moon Dance", cursive;
+    color: aqua;
+}
+.h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: aqua;
+    text-shadow: 1px 1px 2px black, 0 0 25px goldenrod, 0 0 5px darkgoldenrod;
+    text-align: center;
+}
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    background-color: #191b28;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 95%;
+    height: 65%;
+}
+#btn {
+    background-color: red;
+}
+input[type=button] {
+    font-family: 'Orbitron', sans-serif;
+    background-color: aqua;
+    color: black;
+    border: solid black 0.5px;
+    width: 60px;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+}
+input:active[type=button] {
+    background-color:rgb(213, 112, 213);
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    color: rgb(15, 14, 14);
+}
